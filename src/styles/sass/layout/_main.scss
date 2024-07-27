@@ -1,0 +1,30 @@
+.main {
+  width: calc(65vw - (100vw - 100%));
+  margin-left: 30vw;
+  overflow: hidden;
+  position: relative;
+  .container {
+    padding: 70px 50px 50px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: $mobileScreen) {
+  .main {
+    width: 100%;
+    margin: 0;
+    .container {
+      padding: 110px 16px 100px 16px;
+    }
+  }
+}
+
+
+@media (min-width: $largeScreen) {
+  .main {
+    .container {
+      margin: 0;
+    }
+  }
+}

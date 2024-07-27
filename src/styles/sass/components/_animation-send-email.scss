@@ -1,0 +1,25 @@
+.spinner {
+  display: block;
+  position: fixed;
+  top: 35px; 
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 8px solid rgb(255, 255, 255);
+  border-top-color: #FC6E00;
+  animation: spin 1s ease-in-out infinite;
+  z-index: 9999;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: $mobileScreen) {
+  .spinner {
+    top: 75px;
+  }
+}

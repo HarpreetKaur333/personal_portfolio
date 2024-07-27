@@ -1,0 +1,30 @@
+.portfolio__item {
+    margin: 20px;
+    margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .portfolio__item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .portfolio__item__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio__item__info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .portfolio__item__info__description p {
+    margin: 5px 0;
+  }
+  

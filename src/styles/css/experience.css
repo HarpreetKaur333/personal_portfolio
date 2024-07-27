@@ -1,0 +1,70 @@
+/* Custom CSS for Portfolio Item */
+.portfolio-item-container {
+   /*background-color: #e0f7fa; Light Blue Background */
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeIn 0.6s ease-out;
+  padding: 20px;
+}
+
+.portfolio-item-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  background-color: #ffffff; /* White background for card */
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #007bb5; /* Light Blue */
+  transition: color 0.3s ease;
+}
+
+.card-text p {
+  margin: 0.5rem 0;
+  color: #007bb5; /* Light Blue */
+  line-height: 1.6;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.img-fluid {
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  animation: scaleUp 0.6s ease-in-out;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}

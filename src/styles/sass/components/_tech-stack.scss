@@ -1,0 +1,25 @@
+.tech-stack {
+  p {
+    line-height: var(--paragraph-line-height);
+  }
+  &__images {
+    margin-top: 25px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 50px;
+    background-color: $primary-text-color;
+    border-radius: 5px;
+    padding: 15px;
+
+    &__item {
+      img {
+        display: block;
+        width: 50px;
+        filter: grayscale(20%);
+      }
+    }
+  }
+}
