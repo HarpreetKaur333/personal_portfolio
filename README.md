@@ -31,7 +31,7 @@ To view and interact with my projects:
 
 
    ## Website
-here update deployed Url of your profile
+here update deployed Url of your profile https://harpreetkaur333.github.io/personal_portfolio/
 
 ## 🛠 Installation and execution instructions
 1. installation: `npm install`
