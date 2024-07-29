@@ -12,7 +12,7 @@ export const data = {
       "title": "Waiting Line",
       "description": "With Waiting Line, customers are treated with the focus of reducing wait time and improving customer service. REST APIs are developed using the Spring Framework and Hibernate ORM (Object Relational Mapping). Frontend development is done with Angular and Bootstrap.",
        "github": "https://github.com/aalex/isi-final-2021",
-      "website": "https://github.com/aalex/isi-final-2021",
+      // "website": "https://github.com/aalex/isi-final-2021",
       "preview": require("./assets/img/portfolio/fifo.jpg"),
       "alt": "ISI - Waiting Line"
     },
@@ -20,14 +20,14 @@ export const data = {
       "title": "CookBook",
       "description": "Recipes, instructions, and information on the preparation and serving of foods are collected. Responsible for creating MySql databases, building the REST API using node.js, using continuous integration, and participating in code reviews by using GIT.deploy the application in the server using Docker.",
        "github": "https://github.com/aalex/deploy-2021-cookbook",
-      "website": "https://github.com/aalex/deploy-2021-cookbook",
+      // "website": "https://github.com/aalex/deploy-2021-cookbook",
       "preview": require("./assets/img/portfolio/cookbook.png"),
       "alt": "CookBook"
     },
     {
       "title": "LPS (Agricultural Cooperative Service Societies)",
       "description": "I built a comprehensive real-time project for agricultural societies that maintained all records, including client profiles, loan details, inventory terms, and more. This project utilized PHP with the Laravel framework and MySQL to ensure efficient data management and seamless operations.",
-       "github": "http://meharsoft.com/index.php/maincontroller/explored/des",
+      //  "github": "http://meharsoft.com/index.php/maincontroller/explored/des",
       "website": "http://meharsoft.com/index.php/maincontroller/explored/des",
       "preview": require("./assets/img/portfolio/lps.jpg"),
       "alt": "LPS (Agricultural Cooperative Service Societies)"
@@ -35,7 +35,7 @@ export const data = {
     {
       "title": "GST Portal",
       "description": "I built a comprehensive GST Portal system for a client at the CA level. The project involved establishing a secure connection between the client and the India Government GST portal, enabling the client to file their income tax returns seamlessly. We used the LAMP stack (Linux, Apache, MySQL, PHP) for this project to ensure robust and efficient performance.",
-      "github": "http://meharsoft.com/index.php/maincontroller/explored/servdetail",
+      // "github": "http://meharsoft.com/index.php/maincontroller/explored/servdetail",
       "website": "http://meharsoft.com/index.php/maincontroller/explored/servdetail",
       "preview": require("./assets/img/portfolio/gst.jpg"),
       "alt": " GST Portal"
@@ -171,6 +171,10 @@ export const data = {
     {
       href: "#education",
       sectionName: "Education"
+    },
+    {
+      href: "#experience",
+      sectionName: "Experience"
     },
     {
       href: "#portfolio",

@@ -18,13 +18,16 @@ export default function PortfolioListItem(props) {
             {props.description}
           </p>
           <div className="box-button">
-            <a className="button" target="_blank" rel="noreferrer" href={props.github}>
-              GitHub
-            </a>
-            {/* <a className="button"  target="_blank" rel="noreferrer" href={props.website}>
-              Website
-            </a> */}
-          </div>
+        {props.github ? (
+          <a className="button" target="_blank" rel="noreferrer" href={props.github}>
+            GitHub
+          </a>
+        ) : (
+          <a className="button" target="_blank" rel="noreferrer" href={props.website}>
+            Website
+          </a>
+        )}
+      </div>
         </div>
         <div className="portfolio__item__info__container-img">
           <img src={props.preview} alt={props.alt}/>

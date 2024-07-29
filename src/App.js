@@ -123,19 +123,38 @@ export default function App() {
             <h2 data-aos="fade" id="inicio" ref={typeWriterAnimation} className="apresentation main__apresentation__title section-title">
             </h2>
             <p data-aos="fade" className="main__apresentation paragraph">
-              {/* Minha missão como Desenvolvedor Web é combinar design, funcionalidades e performance para juntos criarmos algo incrível!
-              Utilizando tecnologias como <span className="accent-text">HTML</span>, <span className="accent-text">CSS</span>, <span className="accent-text">JavaScript</span>, <span className="accent-text">Sass/SCSS</span>, <span className="accent-text">React</span> e outras, me comprometo a
-              entender as necessidades dos meus clientes e transformá-las em soluções únicas. */}
-              Dynamic Frontend Developer with a robust background in Computer Engineering, holding a Master's degree and a specialized 
+               Dynamic Frontend Developer with a robust background in Computer Engineering, holding a Master's degree and a specialized 
               diploma in Web Programming from ISI College, Canada. Excellent experience in designing and developing interactive 
               user interfaces, usability, web, and client/server applications using <span className="accent-text"> HTML5 </span>, <span className="accent-text">CSS3</span>,<span className="accent-text"> JavaScript</span>, <span className="accent-text">Bootstrap </span>, and <span className="accent-text">jQuery</span>.
               Proficient in both coding and design, as well as software testing and debugging. Fluent in <span className="accent-text"> Angular </span>, <span className="accent-text">TypeScript</span>,<span className="accent-text">React</span>, <span className="accent-text">Node.js </span>,and <span className="accent-text">PHP</span>.
               Eager to learn new skills and techniques to enhance efficiency and contribute effectively in the workplace.
             <br />
             <br />
-            {/* Explore my portfolio and find out how I can take your online presence to the next level! */}
-            </p>
+           </p>
           </section>
+              {/* education section  */}
+              <section className="section education">
+            <SectionTitle
+              id="education"
+              title="Education"
+              className="section-title"
+            />            
+            {
+              data.educationList.map((item, index) => {
+                return (
+                  <EducationListItem
+                    key={index}
+                    title={item.title}
+                    universityName={item.universityName}
+                    courseName={item.courseName}
+                    year={item.year}
+                  />
+                )
+              })
+            }
+        
+          </section>
+            {/* end education section */}
            {/* experience section  */}
            <section className="section experience">
             <SectionTitle
@@ -160,29 +179,7 @@ export default function App() {
           </section>
             {/* end experience section */}
 
-          {/* education section  */}
-          <section className="section education">
-            <SectionTitle
-              id="education"
-              title="Education"
-              className="section-title"
-            />            
-            {
-              data.educationList.map((item, index) => {
-                return (
-                  <EducationListItem
-                    key={index}
-                    title={item.title}
-                    universityName={item.universityName}
-                    courseName={item.courseName}
-                    year={item.year}
-                  />
-                )
-              })
-            }
-        
-          </section>
-            {/* end education section */}
+      
 
               {/* start project section */}
           <section className="section portfolio">
@@ -281,7 +278,7 @@ export default function App() {
               className="section-title" 
             />
             <p data-aos="fade" className="paragraph">
-            Check out my professional summary, skills and certifications!
+            Learn about my expertise and accomplishments—download my CV for a detailed overview!
             </p>
             <a href={CurriculumPDF} className="button button-curriculum">Download PDF</a>
           </section>

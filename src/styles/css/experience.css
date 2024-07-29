@@ -1,6 +1,6 @@
-/* Custom CSS for Portfolio Item */
+Custom CSS for Portfolio Item
 .portfolio-item-container {
-   /*background-color: #e0f7fa; Light Blue Background */
+  background-color: #050811; 
   border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   animation: fadeIn 0.6s ease-out;
@@ -13,15 +13,18 @@
 }
 
 .card {
-  background-color: #ffffff; /* White background for card */
+  background-color: #050811; 
   border-radius: 10px;
+  color: white; /* Adding text color to ensure visibility */
+  padding: 20px; /* Adding padding for better layout */
 }
+
 
 .card-title {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  color: #007bb5; /* Light Blue */
+  color: #ff6f00; /* Light Blue */
   transition: color 0.3s ease;
 }
 
