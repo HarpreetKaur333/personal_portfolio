@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/personal_portfolio/static/css/main.7909162e.css",
-    "main.js": "/personal_portfolio/static/js/main.a1deca02.js",
+    "main.js": "/personal_portfolio/static/js/main.cb72610d.js",
     "static/media/cookbook.png": "/personal_portfolio/static/media/cookbook.48817609fdcb0ab9172d.png",
     "static/media/gst.jpg": "/personal_portfolio/static/media/gst.a547f42bd5b5d8df9fb5.jpg",
-    "static/media/curriculum-FrontEnd-developer.pdf": "/personal_portfolio/static/media/curriculum-FrontEnd-developer.8c0772235f82700931b3.pdf",
     "static/media/fifo.jpg": "/personal_portfolio/static/media/fifo.7640749e1995d2c704b0.jpg",
     "static/media/clinicmasterClientPortal.png": "/personal_portfolio/static/media/clinicmasterClientPortal.8bbab52ef05cee476a8b.png",
     "static/media/lps.jpg": "/personal_portfolio/static/media/lps.73f7ade54c884a0ea3bf.jpg",
     "index.html": "/personal_portfolio/index.html",
     "main.7909162e.css.map": "/personal_portfolio/static/css/main.7909162e.css.map",
-    "main.a1deca02.js.map": "/personal_portfolio/static/js/main.a1deca02.js.map"
+    "main.cb72610d.js.map": "/personal_portfolio/static/js/main.cb72610d.js.map"
   },
   "entrypoints": [
     "static/css/main.7909162e.css",
-    "static/js/main.a1deca02.js"
+    "static/js/main.cb72610d.js"
   ]
 }
