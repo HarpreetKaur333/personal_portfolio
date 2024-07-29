@@ -11,11 +11,12 @@ import PortfolioListItem from './components/PortfolioListItem';
 import EducationListItem from './components/EducationListItem';
 import ExperienceListItem from './components/ExperienceListItem';
 import TechStackListItem from './components/TechStackListItem';
-import CurriculumPDF from './documents/curriculum-FrontEnd-developer.pdf'; 
+// import CurriculumPDF from './documents/curriculum-FrontEnd-developer.pdf'; 
 
 import { data } from './data.js';
 
 export default function App() {
+
   const appContainerRef = useRef();
   const typeWriterAnimation = useRef();
   const copyright = useRef();
@@ -114,6 +115,9 @@ export default function App() {
       showMessage.remove();
     }, 3000); 
   }
+
+  const googleDrivePdfUrl = "  https://drive.google.com/file/d/1rqWlFgVzmfvf04_JcwqkQ5Ha2v_Mh5Z3/view?usp=drive_link"; 
+  // Replace with your actual Google Drive link
   return (
     <div ref={appContainerRef} className="App">
       <Header />
@@ -280,7 +284,7 @@ export default function App() {
             <p data-aos="fade" className="paragraph">
             Learn about my expertise and accomplishments—download my CV for a detailed overview!
             </p>
-            <a href={CurriculumPDF} className="button button-curriculum">Download PDF</a>
+            <a href={googleDrivePdfUrl} className="button button-curriculum"  target="_blank" rel="noreferrer">Download PDF</a>
           </section>
           <p ref={copyright} className="paragraph copyright">
           </p>
