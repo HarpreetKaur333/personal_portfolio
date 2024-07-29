@@ -27,7 +27,7 @@ To view and interact with my projects:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/personal-portfolio.git
+   git clone https://github.com/harpreetkaur333/personal-portfolio.git
 
 
    ## Website
