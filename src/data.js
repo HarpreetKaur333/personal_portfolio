@@ -87,26 +87,37 @@ export const data = {
 
   ],
   "techStackList": [
-    {
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg",
-      "altText": "Angular icon image"
-    },
-    {
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
-      "altText": "Typescript icon image"
-    },
+   
     {
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
       "altText": "JavaScript icon image"
     },
     {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      "altText": "Typescript icon image"
+    },
+
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
+      "altText": "PHP icon image"
+    },
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+      "altText": "Java"
+    },
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg",
+      "altText": "Angular icon image"
+    },
+   
+    {
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       "altText": "React icon image"
     },
-    {
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
-      "altText": "Node.js icon image"
-    },
+    // {
+    //   "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
+    //   "altText": "Node.js icon image"
+    // },
     {
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rxjs/rxjs-original.svg",
       "altText": "rxjs icon image"
@@ -116,6 +127,10 @@ export const data = {
       "altText": "ngrx icon image"
     },
     {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg",
+      "altText": "Laravel icon image"
+    },
+    {
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
       "altText": "CSS3 icon image"
     },
@@ -123,18 +138,8 @@ export const data = {
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
       "altText": "Bootstrap icon image"
     },
-    {
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
-      "altText": "PHP icon image"
-    },
-    {
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg",
-      "altText": "Laravel icon image"
-    },
-    // {
-    //   "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg",
-    //   "altText": "jQuery icon image"
-    // },
+  
+  
   
     // {
     //   "image": "https://raw.githubusercontent.com/get-icon/geticon/master/icons/visual-studio-code.svg",

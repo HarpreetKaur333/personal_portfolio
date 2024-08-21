@@ -116,7 +116,9 @@ export default function App() {
     }, 3000); 
   }
 
-  const googleDrivePdfUrl = "  https://drive.google.com/file/d/1rqWlFgVzmfvf04_JcwqkQ5Ha2v_Mh5Z3/view?usp=drive_link"; 
+  const googleDrivePdfUrl = "https://drive.google.com/file/d/17UO_VHLH7HMHqrilmmUKcM-gO9e-ZTO9/view?usp=drive_link"; 
+
+ 
   // Replace with your actual Google Drive link
   return (
     <div ref={appContainerRef} className="App">
@@ -130,7 +132,7 @@ export default function App() {
                Dynamic Frontend Developer with a robust background in Computer Engineering, holding a Master's degree and a specialized 
               diploma in Web Programming from ISI College, Canada. Excellent experience in designing and developing interactive 
               user interfaces, usability, web, and client/server applications using <span className="accent-text"> HTML5 </span>, <span className="accent-text">CSS3</span>,<span className="accent-text"> JavaScript</span>, <span className="accent-text">Bootstrap </span>, and <span className="accent-text">jQuery</span>.
-              Proficient in both coding and design, as well as software testing and debugging. Fluent in <span className="accent-text"> Angular </span>, <span className="accent-text">TypeScript</span>,<span className="accent-text">React</span>, <span className="accent-text">Node.js </span>,and <span className="accent-text">PHP</span>.
+              Proficient in both coding and design, as well as software testing and debugging. Fluent in <span className="accent-text"> Angular </span>, <span className="accent-text">TypeScript</span>,<span className="accent-text">React</span>, <span className="accent-text">Node.js </span>,<span className="accent-text">PHP</span> and <span className="accent-text">Java</span>.
               Eager to learn new skills and techniques to enhance efficiency and contribute effectively in the workplace.
             <br />
             <br />

@@ -32,7 +32,7 @@ export default function Header() {
       <p data-aos="fade" className="header__name">
        Harpreet Kaur
         <span className="header__role">
-         Front End Deveopler 
+        Software Developer 
         </span>
       </p>
       <div className="container side-menu">
