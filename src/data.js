@@ -138,9 +138,6 @@ export const data = {
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
       "altText": "Bootstrap icon image"
     },
-  
-  
-  
     // {
     //   "image": "https://raw.githubusercontent.com/get-icon/geticon/master/icons/visual-studio-code.svg",
     //   "altText": "Imagem ícone VS Code"
@@ -157,11 +154,6 @@ export const data = {
       url: "https://www.linkedin.com/in/harpreet-kaur-74509353",
       alt: "LinkedIn icon"
     },
-    // {
-    //   icon: require('./assets/img/icon/youtube-icon.png'),
-    //   url: "https://www.youtube.com/@gabrielsoaresevt/featured",
-    //   alt: "Ícone do Youtube"
-    // },
     {
       icon: require('./assets/img/icon/github-icon.png'),
       url: "https://github.com/HarpreetKaur333",
