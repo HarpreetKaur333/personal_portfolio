@@ -116,7 +116,7 @@ export default function App() {
     }, 3000); 
   }
 
-  const googleDrivePdfUrl = "https://drive.google.com/file/d/17UO_VHLH7HMHqrilmmUKcM-gO9e-ZTO9/view?usp=drive_link"; 
+  const googleDrivePdfUrl = "https://drive.google.com/file/d/15b8cJUWAFgarDlEcEjVI88Csp6eqxG-X/view"; 
 
  
   // Replace with your actual Google Drive link
