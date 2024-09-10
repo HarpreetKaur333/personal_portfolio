@@ -118,7 +118,6 @@ export default function App() {
 
   const googleDrivePdfUrl = "https://drive.google.com/file/d/15b8cJUWAFgarDlEcEjVI88Csp6eqxG-X/view"; 
 
- 
   // Replace with your actual Google Drive link
   return (
     <div ref={appContainerRef} className="App">
