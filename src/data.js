@@ -87,24 +87,6 @@ export const data = {
 
   ],
   "techStackList": [
-   
-    {
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
-      "altText": "JavaScript icon image"
-    },
-    {
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
-      "altText": "Typescript icon image"
-    },
-
-    {
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
-      "altText": "PHP icon image"
-    },
-    {
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
-      "altText": "Java"
-    },
     {
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg",
       "altText": "Angular icon image"
@@ -114,10 +96,49 @@ export const data = {
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       "altText": "React icon image"
     },
-    // {
-    //   "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
-    //   "altText": "Node.js icon image"
-    // },
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+      "altText": "JavaScript icon image"
+    },
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      "altText": "Typescript icon image"
+    },
+  
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+      "altText": "Java"
+    },
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
+      "altText": "PHP icon image"
+    },
+  
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
+      "altText": "C# image"
+    },
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+      "altText": "NodeJs icon image"
+    },
+   
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg",
+      "altText": "HTML5 ícone"
+    },
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg",
+      "altText": "CSS3 icon image"
+    },
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-plain.svg",
+      "altText": "Bootstrap icon image"
+    },
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      "altText": "Tailwind ícone"
+    },
     {
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rxjs/rxjs-original.svg",
       "altText": "rxjs icon image"
@@ -127,26 +148,34 @@ export const data = {
       "altText": "ngrx icon image"
     },
     {
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg",
-      "altText": "Laravel icon image"
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
+      "altText": "Redux"
     },
     {
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
-      "altText": "CSS3 icon image"
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg",
+      "altText": "Next.js"
     },
     {
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
-      "altText": "Bootstrap icon image"
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+      "altText": "Docker"
     },
-    // {
-    //   "image": "https://raw.githubusercontent.com/get-icon/geticon/master/icons/visual-studio-code.svg",
-    //   "altText": "Imagem ícone VS Code"
-    // },
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+      "altText": "MySQL"
+    },
+
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg",
+      "altText": "Azure"
+    },
+    
+    {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+      "altText": "AWS"
+    }
    
-    // {
-    //   "image": "https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/npm.svg",
-    //   "altText": "Imagem do ícone Node Package Manager"
-    // }
+ 
+    
   ],
   "socialMediaList": [
     {
@@ -191,3 +220,11 @@ export const data = {
     }
   ]
 }
+
+
+// import coffeeCupImage from '../assets/img/experience/coffeeCup.png';
+// import laptopImage from '../assets/img/experience/laptop.png';
+
+
+// <img src={laptopImage} alt="Laptop" className="experience-image laptop" />
+// <img src={coffeeCupImage} alt="Coffee Cup" className="experience-image coffee-cup" />

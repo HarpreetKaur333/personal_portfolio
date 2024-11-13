@@ -116,7 +116,7 @@ export default function App() {
     }, 3000); 
   }
 
-  const googleDrivePdfUrl = "https://drive.google.com/file/d/15b8cJUWAFgarDlEcEjVI88Csp6eqxG-X/view"; 
+  const googleDrivePdfUrl = "https://drive.google.com/file/d/1EM7W4Ih8-ErNFfAM4p2bAXc2trpXt29H/view"; 
 
   // Replace with your actual Google Drive link
   return (
@@ -128,11 +128,18 @@ export default function App() {
             <h2 data-aos="fade" id="inicio" ref={typeWriterAnimation} className="apresentation main__apresentation__title section-title">
             </h2>
             <p data-aos="fade" className="main__apresentation paragraph">
-               Dynamic Frontend Developer with a robust background in Computer Engineering, holding a Master's degree and a specialized 
+            Dynamic Software Developer with over 6 years of industry experience, specializing in building high-performance, scalable web applications using 
+            modern frontend frameworks like Angular, React, and Vue.js. Skilled in back-end development with NodeJS, PHP (Laravel), Java, and C#, 
+            with extensive experience in integrating RESTful APIs and managing complex application states. Adept at delivering responsive, 
+            user-friendly interfaces and collaborating in Agile environments. Proven track record of deploying cloud-based solutions with CI/CD automation, 
+            leveraging Azure and Docker for seamless scalability. Known for strong problem-solving abilities, a user-centric approach, and maintaining high 
+            code quality using testing frameworks like Jasmine, 
+            Jest, and Karma. Enthusiastic about continuous learning and adapting to new technologies to drive innovative solutions.
+               {/* Dynamic Frontend Developer with a robust background in Computer Engineering, holding a Master's degree and a specialized 
               diploma in Web Programming from ISI College, Canada. Excellent experience in designing and developing interactive 
               user interfaces, usability, web, and client/server applications using <span className="accent-text"> HTML5 </span>, <span className="accent-text">CSS3</span>,<span className="accent-text"> JavaScript</span>, <span className="accent-text">Bootstrap </span>, and <span className="accent-text">jQuery</span>.
               Proficient in both coding and design, as well as software testing and debugging. Fluent in <span className="accent-text"> Angular </span>, <span className="accent-text">TypeScript</span>,<span className="accent-text">React</span>, <span className="accent-text">Node.js </span>,<span className="accent-text">PHP</span> and <span className="accent-text">Java</span>.
-              Eager to learn new skills and techniques to enhance efficiency and contribute effectively in the workplace.
+              Eager to learn new skills and techniques to enhance efficiency and contribute effectively in the workplace. */}
             <br />
             <br />
            </p>

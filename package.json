@@ -5,6 +5,8 @@
   "homepage": "https://harpreetkaur333.github.io/personal_portfolio",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@react-three/drei": "^9.115.0",
+    "@react-three/fiber": "^8.17.10",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -12,8 +14,11 @@
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-parallax-mousemove": "^1.1.0",
     "react-scripts": "5.0.1",
+    "react-scroll-parallax": "^3.4.5",
     "t-writer.js": "^1.0.4",
+    "three": "^0.170.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
