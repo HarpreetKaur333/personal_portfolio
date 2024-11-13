@@ -12,6 +12,7 @@ import EducationListItem from './components/EducationListItem';
 import ExperienceListItem from './components/ExperienceListItem';
 import TechStackListItem from './components/TechStackListItem';
 // import CurriculumPDF from './documents/curriculum-FrontEnd-developer.pdf'; 
+import { launchConfettiFromElement } from './utils/confetti';
 
 import { data } from './data.js';
 
@@ -40,6 +41,9 @@ export default function App() {
     .type('WHO I AM?') // Single message
     .start(); // Start the animation   
     Aos.init({ duration: 2500 });
+
+      // Trigger confetti animation centered on the "WHO I AM?" section
+  launchConfettiFromElement(typeWriterAnimation.current);
   }, [currentYear]);
 
   const [name, setName] = useState('');

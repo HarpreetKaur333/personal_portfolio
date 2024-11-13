@@ -909,3 +909,73 @@ template {
 }
 
 
+.portfolio__item {
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  color: #e6edf3;
+}
+
+.portfolio__item__title {
+  font-size: 1.8rem;
+  color: #ff6f00 !important;
+  margin-bottom: 10px;
+  z-index: 2;
+  position: relative;
+}
+
+.portfolio__item__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 2;
+  position: relative;
+}
+
+.education-background-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 600px;
+  opacity: 0.15;
+  z-index: 1;
+}
+
+
+.education-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px 0;
+}
+
+.education-image-container {
+  flex: 0 0 40%; /* Adjust the width as needed */
+  display: flex;
+  justify-content: center;
+}
+
+.education-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  opacity: 0.9;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.education-image:hover {
+  transform: scale(1.05);
+}
+
+.education-details {
+  flex: 1;
+}
+
+
+

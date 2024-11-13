@@ -3,6 +3,9 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import ParallaxMousemove from 'react-parallax-mousemove';
 
+
+
+
 export default function EducationListItem(props) {
   useEffect(() => {
     Aos.init({ duration: 2000 });
