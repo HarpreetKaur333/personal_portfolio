@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/personal_portfolio/static/css/main.7909162e.css",
-    "main.js": "/personal_portfolio/static/js/main.3115399e.js",
+    "main.css": "/personal_portfolio/static/css/main.22a42b94.css",
+    "main.js": "/personal_portfolio/static/js/main.c34891df.js",
     "static/media/cookbook.png": "/personal_portfolio/static/media/cookbook.48817609fdcb0ab9172d.png",
     "static/media/gst.jpg": "/personal_portfolio/static/media/gst.a547f42bd5b5d8df9fb5.jpg",
     "static/media/fifo.jpg": "/personal_portfolio/static/media/fifo.7640749e1995d2c704b0.jpg",
     "static/media/clinicmasterClientPortal.png": "/personal_portfolio/static/media/clinicmasterClientPortal.8bbab52ef05cee476a8b.png",
     "static/media/lps.jpg": "/personal_portfolio/static/media/lps.73f7ade54c884a0ea3bf.jpg",
     "index.html": "/personal_portfolio/index.html",
-    "main.7909162e.css.map": "/personal_portfolio/static/css/main.7909162e.css.map",
-    "main.3115399e.js.map": "/personal_portfolio/static/js/main.3115399e.js.map"
+    "main.22a42b94.css.map": "/personal_portfolio/static/css/main.22a42b94.css.map",
+    "main.c34891df.js.map": "/personal_portfolio/static/js/main.c34891df.js.map"
   },
   "entrypoints": [
-    "static/css/main.7909162e.css",
-    "static/js/main.3115399e.js"
+    "static/css/main.22a42b94.css",
+    "static/js/main.c34891df.js"
   ]
 }
