@@ -120,7 +120,7 @@ export default function App() {
     }, 3000); 
   }
 
-  const googleDrivePdfUrl = "https://drive.google.com/file/d/1EM7W4Ih8-ErNFfAM4p2bAXc2trpXt29H/view"; 
+  const googleDrivePdfUrl = "https://drive.google.com/file/d/194808jfHuPa_eb_zvPYdS9KMYxxLO-dQ/view"; 
 
   // Replace with your actual Google Drive link
   return (
