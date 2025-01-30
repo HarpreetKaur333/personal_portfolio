@@ -8,6 +8,16 @@ export const data = {
       "preview": require("./assets/img/portfolio/clinicmasterClientPortal.png"),
       "alt": "Les Systèmes Adda Tech Inc.- Clinic Master"
     },
+
+    {
+      "title": "Clinet Portal",
+      "description": "Built a user-friendly ClinicMaster Client Portal that helps patients manage appointments, view bills, and communicate easily with clinics",
+      // "github": "https://github.com/gabrielsoaresevt/space-tourism-website",
+      "website": "https://www.clinicmaster.com/en/client-portal",
+      "preview": require("./assets/img/portfolio/CMClientPortal.jpg"),
+       "alt": "Les Systèmes Adda Tech Inc.- Client Portal"
+    },
+
     {
       "title": "Waiting Line",
       "description": "With Waiting Line, customers are treated with the focus of reducing wait time and improving customer service. REST APIs are developed using the Spring Framework and Hibernate ORM (Object Relational Mapping). Frontend development is done with Angular and Bootstrap.",
@@ -47,7 +57,7 @@ export const data = {
       "title": "Front End Developer",
       "companyName": "Les Systèmes Adda Tech Inc.- Laval, QC",
      // "description": "Developed web features using Angular and TypeScript, built RESTful APIs with Node.js, and created customer-facing applications with ReactJS. Integrated third-party tools, employed Agile methodologies, and deployed applications.",
-      "year": "Feb 2022 - Present",
+      "year": "Feb 2022 - Jan 2025",
      
     },
     {
@@ -156,6 +166,10 @@ export const data = {
       "altText": "Next.js"
     },
     {
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
+      "altText": "vue"
+    },
+    {
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
       "altText": "Docker"
     },
@@ -167,14 +181,7 @@ export const data = {
     {
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg",
       "altText": "Azure"
-    },
-    
-    {
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
-      "altText": "AWS"
     }
-   
- 
     
   ],
   "socialMediaList": [

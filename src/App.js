@@ -132,13 +132,7 @@ export default function App() {
             <h2 data-aos="fade" id="inicio" ref={typeWriterAnimation} className="apresentation main__apresentation__title section-title">
             </h2>
             <p data-aos="fade" className="main__apresentation paragraph">
-            Dynamic Software Developer with over 6 years of industry experience, specializing in building high-performance, scalable web applications using 
-            modern frontend frameworks like Angular, React, and Vue.js. Skilled in back-end development with NodeJS, PHP (Laravel), Java, and C#, 
-            with extensive experience in integrating RESTful APIs and managing complex application states. Adept at delivering responsive, 
-            user-friendly interfaces and collaborating in Agile environments. Proven track record of deploying cloud-based solutions with CI/CD automation, 
-            leveraging Azure and Docker for seamless scalability. Known for strong problem-solving abilities, a user-centric approach, and maintaining high 
-            code quality using testing frameworks like Jasmine, 
-            Jest, and Karma. Enthusiastic about continuous learning and adapting to new technologies to drive innovative solutions.
+            Dynamic Software Developer with 6+ years of experience in building high-performance, scalable web applications. Proficient in modern front-end frameworks such as Angular, React, and Vue.js, with strong expertise in back-end development using NodeJS, PHP (Laravel), Java, and C#. Adept at integrating RESTful APIs, managing complex application states, and delivering user-friendly, responsive interfaces. Experienced in Agile environments, CI/CD automation, and cloud technologies like Azure and Docker. Passionate about problem-solving, clean coding, and leveraging testing frameworks like Jasmine, Jest, and Karma to ensure code quality. Committed to continuous learning and adopting new technologies to drive innovation.
                {/* Dynamic Frontend Developer with a robust background in Computer Engineering, holding a Master's degree and a specialized 
               diploma in Web Programming from ISI College, Canada. Excellent experience in designing and developing interactive 
               user interfaces, usability, web, and client/server applications using <span className="accent-text"> HTML5 </span>, <span className="accent-text">CSS3</span>,<span className="accent-text"> JavaScript</span>, <span className="accent-text">Bootstrap </span>, and <span className="accent-text">jQuery</span>.
